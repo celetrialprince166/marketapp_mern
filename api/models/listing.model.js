@@ -22,22 +22,6 @@ const listingSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
-    bathrooms: {
-      type: Number,
-      required: true,
-    },
-    bedrooms: {
-      type: Number,
-      required: true,
-    },
-    furnished: {
-      type: Boolean,
-      required: true,
-    },
-    parking: {
-      type: Boolean,
-      required: true,
-    },
     type: {
       type: String,
       required: true,
@@ -54,6 +38,25 @@ const listingSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    number:{
+      type: String,
+      required: true,
+    },snap: {
+      type: String,
+      required: true,
+    },instagram:{
+      type:String,
+      default:""
+    },
+    tiktok:{
+      type: String,
+      default:""
+    },
+    hostel:{
+      type: String,
+      default:""
+    }
+    
   },
   { timestamps: true }
 );
