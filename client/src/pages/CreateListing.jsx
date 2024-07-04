@@ -20,7 +20,7 @@ export default function CreateListing() {
     address: '',
     hostel:'',
     type: 'service',
-    regularPrice: 50,
+    regularPrice: 0,
     discountPrice: 0,
     offer: false,
     parking: false,
@@ -255,7 +255,7 @@ export default function CreateListing() {
                 onChange={handleChange}
                 checked={formData.type === 'product'}
               />
-              <span>Sell</span>
+              <span>Product</span>
             </div>
             <div className='flex gap-2'>
               <input
@@ -265,7 +265,7 @@ export default function CreateListing() {
                 onChange={handleChange}
                 checked={formData.type === 'service'}
               />
-              <span>service</span>
+              <span>Service</span>
             </div>
            
             
