@@ -145,7 +145,7 @@ export default function Search() {
             />
           </div>
           <div className='flex gap-2 flex-wrap items-center'>
-            <label className='font-semibold'>Type:</label>
+            {/* <label className='font-semibold'></label> */}
             <div className='flex gap-2'>
               <input
                 type='checkbox'
@@ -154,6 +154,7 @@ export default function Search() {
                 onChange={handleChange}
                 checked={sidebardata.type === 'all'}
               />
+              
               <span>Service & Product</span>
             </div>
             <div className='flex gap-2'>

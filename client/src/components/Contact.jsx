@@ -24,7 +24,7 @@ export default function Contact({ listing }) {
     <>
       {landlord && (
         <div className='flex flex-col gap-2'>
-          <p>
+          {/* <p>
             Contact <span className='font-semibold'>{landlord.username}</span>{' '}
             for{' '}
             <span className='font-semibold'>{listing.name.toLowerCase()}</span>
@@ -44,7 +44,7 @@ export default function Contact({ listing }) {
           className='bg-slate-700 text-white text-center p-3 uppercase rounded-lg hover:opacity-95'
           >
             Send Message          
-          </Link>
+          </Link> */}
         </div>
       )}
     </>
