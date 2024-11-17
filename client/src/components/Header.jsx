@@ -27,12 +27,13 @@ export default function Header() {
       <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
         <Link to='/'>
         <div className="flex items-center">
-            <img
-              src="\src\images\logo.jpg"
-              style={{ borderRadius: "50%" }}
-              alt="Logo"
-              className="h-8 w-8 mr-2"
-            />
+        <img
+          src="https://media.istockphoto.com/id/1188816693/vector/young-teenage-woman-uses-laptop-for-work-or-chatting-with-friends.jpg?s=2048x2048&w=is&k=20&c=GlG5CyHos3ui1C5kc2luKqsF3ysJVZ3nZiS3ek5lzVQ="
+          style={{ borderRadius: "50%" }}
+          alt="Logo"
+          className="h-8 w-8 mr-2"
+        />
+
         
           <h1 className='font-bold text-lg sm:text-2xl flex flex-wrap'>
             <span className='text-slate-500'>Campus </span>
